@@ -1,0 +1,58 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://media.idownloadblog.com/wp-content/uploads/2021/09/Apple-September-Event-California-Streaming-BasicAppleGuy-iDownloadBlog-6K-No-Logo-2048x1206.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.clock-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: hsla(0, 0%, 100%, 0.26);
+    backdrop-filter: blur(10px);
+    width: 30vw;
+    border-radius: 20px;
+}
+
+.clock-wid{
+    font-size: 7rem;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+.bookmarks{
+    display: flex;
+    padding: 20px;
+    background-color: hsla(0, 0%, 100%, 0.075);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 40vw;
+    justify-content: center;
+}
+
+.bookmark{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+.bookmark > a > img{
+    width: 100px;
+    height: 100px;
+    margin: -10px;
+}
