@@ -1,0 +1,16 @@
+{
+    "bookmarks":[{
+        "bId":"yt",
+        "bName":"Youtube",
+        "bUrl":"https://www.youtube.com"
+    },{
+        "bId":"gmail-tkl",
+        "bName":"Gmail TKL",
+        "bUrl":"https://mail.google.com/mail/u/0/#inbox"
+    },{
+        "bId":"gmail-AKC",
+        "bName":"Gmail AKC",
+        "bUrl":"https://mail.google.com/mail/u/1/#inbox"
+    }
+]
+}
